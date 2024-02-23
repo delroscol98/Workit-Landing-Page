@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --manrope: "Manrope", sans-serif;
+  --fraunces: "Fraunces", serif;
+  --dark-purple: #24053e;
+  --davys-grey: #584d62;
+  --eucalyptus: #44ffa1;
+  --ghost-white: #fcf8ff;
+  --white: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hero {
+  height: 48.171rem;
+  background-color: var(--dark-purple);
+  clip-path: ellipse(140% 55% at 50% 45%);
+}
+
+.hero .hero_header {
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_button {
+  background-color: var(--dark-purple);
+  border: none;
+}
+
+.hero_button-text {
+  color: var(--white);
+  line-height: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: var(--manrope);
+  border-bottom: 3px solid var(--eucalyptus);
+}
