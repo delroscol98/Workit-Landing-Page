@@ -53,6 +53,17 @@ html {
   text-underline-offset: 0.8rem;
 }
 
+.hero_button:hover,
+.hero_button-text:hover {
+  cursor: pointer;
+  color: var(--eucalyptus);
+}
+
+.hero_button:active,
+.hero_button-text:active {
+  text-decoration: none;
+}
+
 .hero_banner {
   width: 34.3rem;
   height: 19.5rem;
@@ -84,4 +95,14 @@ html {
   height: 5.5rem;
   width: 13.3rem;
   margin: 0 auto;
+}
+
+.hero_banner-button:hover {
+  cursor: pointer;
+}
+
+.hero_banner-button:active {
+  background-color: var(--dark-purple);
+  border: 1px solid var(--eucalyptus);
+  color: var(--eucalyptus);
 }
