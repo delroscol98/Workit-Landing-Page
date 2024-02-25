@@ -106,3 +106,12 @@ html {
   border: 1px solid var(--eucalyptus);
   color: var(--eucalyptus);
 }
+
+.hero_img {
+  width: 32rem;
+  height: 18.4rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 38.9rem;
+  z-index: 100;
+}
