@@ -28,7 +28,7 @@ html {
   clip-path: ellipse(140% 55% at 50% 45%);
 }
 
-.hero .hero_header {
+.hero_header {
   position: relative;
   width: 34.3rem;
   height: 3.4rem;
@@ -36,6 +36,11 @@ html {
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.hero_bg-img1,
+.hero_bg-img2 {
+  display: none;
 }
 
 .hero_button {
@@ -114,4 +119,53 @@ html {
   left: 3.6rem;
   top: 38.9rem;
   z-index: 100;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+  .hero {
+    height: 54.024rem;
+  }
+
+  .hero_header {
+    width: 68.9rem;
+  }
+
+  .hero_banner {
+    height: 21.5rem;
+    width: 57.3rem;
+    top: 12.2rem;
+  }
+
+  .hero_banner-title {
+    font-size: 6rem;
+  }
+
+  .hero_bg-img1,
+  .hero_bg-img2 {
+    display: block;
+  }
+
+  .hero_bg-img1 {
+    position: absolute;
+    top: 10.198rem;
+    left: -21.759rem;
+  }
+
+  .hero_bg-img2 {
+    position: absolute;
+    top: 27.748rem;
+    left: 68.9rem;
+  }
+
+  .hero_img {
+    width: 51.4rem;
+    height: 29.6rem;
+    left: 15.1rem;
+    top: 39.2rem;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
 }
