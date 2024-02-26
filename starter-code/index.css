@@ -38,14 +38,20 @@ html {
   justify-content: space-between;
 }
 
+.hero_header-logo {
+  width: 9.576rem;
+  height: 2.461rem;
+  margin: auto 0;
+}
+
+.hero_header-button {
+  background-color: var(--dark-purple);
+  border: none;
+}
+
 .hero_bg-img1,
 .hero_bg-img2 {
   display: none;
-}
-
-.hero_button {
-  background-color: var(--dark-purple);
-  border: none;
 }
 
 .hero_button-text {
@@ -148,14 +154,20 @@ html {
 
   .hero_bg-img1 {
     position: absolute;
-    top: 10.198rem;
-    left: -21.759rem;
+    width: 27.029rem;
+    height: 21.51rem;
+    top: 12.198rem;
+    left: -18.759rem;
+    transform: rotate(212deg);
   }
 
   .hero_bg-img2 {
     position: absolute;
-    top: 27.748rem;
-    left: 68.9rem;
+    width: 14.17rem;
+    height: 11.271rem;
+    top: 28.39rem;
+    left: 70.449rem;
+    transform: rotate(304deg);
   }
 
   .hero_img {
