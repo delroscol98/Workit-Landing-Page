@@ -187,4 +187,54 @@ html {
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
+  .hero {
+    height: 73rem;
+  }
+
+  .hero_banner {
+    width: 63.5rem;
+    height: 25.8rem;
+    top: 11.4rem;
+  }
+
+  .hero_banner-title {
+    font-size: 8rem;
+  }
+
+  .hero_bg-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .hero_bg-img1,
+  .hero_bg-img2 {
+    display: block;
+  }
+
+  .hero_bg-img1 {
+    position: absolute;
+    width: 27.029rem;
+    height: 21.51rem;
+    top: 16.698rem;
+    left: -10.36rem;
+    transform: rotate(212deg);
+  }
+
+  .hero_bg-img2 {
+    position: relative;
+    width: 14.17rem;
+    height: 11.271rem;
+    top: 34.797rem;
+    left: 133.089rem;
+    transform: rotate(304deg);
+  }
+
+  .hero_img {
+    width: 76.7rem;
+    height: 44.1rem;
+    top: 45.4rem;
+    left: 36.1rem;
+  }
 }
