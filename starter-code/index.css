@@ -23,9 +23,11 @@ html {
 }
 
 .hero {
+  position: relative;
   height: 48.171rem;
   background-color: var(--dark-purple);
   clip-path: ellipse(140% 55% at 50% 45%);
+  z-index: 2;
 }
 
 .hero_header {
@@ -127,8 +129,16 @@ html {
   z-index: 100;
 }
 
+.features {
+  height: 107.071rem;
+  background-color: var(--ghost-white);
+  clip-path: ellipse(140% 55% at 50% 45%);
+  position: relative;
+  top: -9rem;
+}
+
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+@media screen and (min-width: 768px) and (max-width: 1023.9px) {
   .hero {
     height: 54.024rem;
   }
@@ -183,10 +193,15 @@ html {
     left: 15.1rem;
     top: 39.2rem;
   }
+
+  .features {
+    height: 92.073rem;
+    top: -13.724rem;
+  }
 }
 
 /* Desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .hero {
     height: 73rem;
   }
@@ -236,5 +251,10 @@ html {
     height: 44.1rem;
     top: 45.4rem;
     left: 36.1rem;
+  }
+
+  .features {
+    height: 96rem;
+    top: -22.6rem;
   }
 }
