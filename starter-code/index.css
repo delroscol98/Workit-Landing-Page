@@ -143,7 +143,6 @@ html {
   width: 34.3rem;
   height: 75.4rem;
   margin: 0 auto;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -339,5 +338,28 @@ html {
   .features {
     height: 96rem;
     top: -22.6rem;
+  }
+
+  .features_box {
+    top: 48.1rem;
+    width: 111.4rem;
+    height: 30.8rem;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .features_box-number-container {
+    margin-bottom: 5.6rem;
+    height: 5.6rem;
+    width: 5.6rem;
+  }
+
+  .features_box-text-container-title {
+    margin-bottom: 2.8rem;
+    font-size: 3.2rem;
+  }
+
+  .features_box-text-container-body {
+    font-size: 1.8rem;
   }
 }
