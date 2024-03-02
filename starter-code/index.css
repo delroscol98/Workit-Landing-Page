@@ -260,7 +260,7 @@ html {
 }
 
 .founder_bg-img {
-  display: hidden;
+  display: none;
 }
 
 /* Tablet */
@@ -372,6 +372,7 @@ html {
     font-size: 4.8rem;
     text-align: left;
     margin: 0;
+    top: 4.8rem;
     left: 5.6rem;
   }
 
@@ -394,8 +395,8 @@ html {
     height: 13.7rem;
     transform: rotate(215deg);
     position: relative;
-    top: 31.752rem;
-    left: 19rem;
+    top: 8.352rem;
+    left: 30.466rem;
   }
 }
 
@@ -478,5 +479,63 @@ html {
 
   .features_box-text-container-body {
     font-size: 1.8rem;
+  }
+
+  .founder {
+    width: 111.2rem;
+    height: 64.774rem;
+    position: absolute;
+    top: 157.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .founder_image {
+    position: static;
+    width: 47.7rem;
+    height: 47.7rem;
+    transform: translateX(0);
+  }
+
+  .founder_description {
+    width: 73rem;
+    height: 41.3rem;
+    top: -30.4rem;
+    float: right;
+  }
+
+  .founder_description-title {
+    font-size: 5.6rem;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    position: relative;
+    left: 6.45rem;
+    top: 6.4rem;
+  }
+
+  .founder_description-body {
+    width: 60.2rem;
+    height: 9.6rem;
+    text-align: left;
+    top: 9.6rem;
+    font-size: 1.8rem;
+  }
+
+  .founder_button {
+    top: 12.4rem;
+    left: 6.4rem;
+    transform: translateX(0);
+  }
+
+  .founder_bg-img {
+    display: block;
+    width: 17.3rem;
+    height: 13.7rem;
+    position: relative;
+    top: 8.002rem;
+    left: 46.066rem;
+    transform: rotate(215deg);
   }
 }
